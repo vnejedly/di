@@ -1,0 +1,21 @@
+{
+  "type": "library",
+  "name": "hooloovoo/di",
+  "description": "Simple DI container with auto-wiring",
+  "keywords": ["di", "dependency injection", "container", "auto-wiring"],
+  "homepage": "https://github.com/vnejedly/di",
+  "license": "MIT",
+  "authors": [{
+    "name": "Vladislav Nejedlý",
+    "email": "vladislav.nejedly@gmail.com",
+    "homepage": "https://www.linkedin.com/in/vladislav-nejedl%C3%BD-7140117b"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Hooloovoo\\DI\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  }
+}
